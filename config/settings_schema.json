@@ -1,0 +1,55 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "My Fancy Theme",
+    "theme_author": "Your Name",
+    "theme_version": "1.0.0",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/using-themes\/sections",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "Theme Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Main Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_headings",
+        "label": "Headings",
+        "default": "#3d4246"
+      },
+      {
+        "type": "color",
+        "id": "color_links",
+        "label": "Links",
+        "default": "#2980b9"
+      },
+      {
+        "type": "color",
+        "id": "color_body",
+        "label": "Body text",
+        "default": "#788188"
+      },
+      {
+        "type": "color",
+        "id": "color_hero",
+        "label": "Hero Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_sale",
+        "label": "Sale text",
+        "default": "#2980b9"
+      },
+      {
+        "type": "color",
+        "id": "color_borders",
+        "label": "Borders and lines",
+        "default": "#e8e9eb"
+      }
+    ]
+  }
+]
