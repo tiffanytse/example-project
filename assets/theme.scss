@@ -92,7 +92,7 @@
 /*================ Media Query Mixin ================*/
 @mixin media-query($media-query) {
   $breakpoint-found: false;
-  color: red;
+  color: orange;
 
   @each $breakpoint in $grid-breakpoints {
     $name: nth($breakpoint, 1);
