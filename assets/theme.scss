@@ -92,7 +92,6 @@
 /*================ Media Query Mixin ================*/
 @mixin media-query($media-query) {
   $breakpoint-found: false;
-  color: orange;
 
   @each $breakpoint in $grid-breakpoints {
     $name: nth($breakpoint, 1);
@@ -3532,7 +3531,7 @@ h1.product-single__title {
 .cookie-message {
   display: none;
   padding-bottom: 25px;
-
+  
   .cart--no-cookies & {
     display: block;
   }
@@ -5559,3 +5558,4 @@ $toolbar-height-small: 46px;
     margin-top: -($section-spacing * 2);
   }
 }
+
